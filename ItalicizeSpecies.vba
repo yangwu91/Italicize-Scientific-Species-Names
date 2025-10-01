@@ -1,7 +1,7 @@
-Sub ItalicizeSpeciesSpecies()
+Sub ItalicizeSpeciesNames()
     ' =================================================================
     '
-    ' NAME: Italicize Scientific Species Species
+    ' NAME: Italicize Scientific Species Names
     '
     ' AUTHOR: Yang WU
     '
@@ -158,4 +158,5 @@ Sub ItalicizeSpeciesSpecies()
 
     ' Display the final report to the user.
     MsgBox finalMessage, vbInformation, "Macro Finished"
+
 End Sub
