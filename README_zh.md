@@ -9,7 +9,7 @@
 3. 在VBA编辑器的左侧“工程”浏览器窗口中，找到并双击 **`Normal`** (或 `Normal.dotm`) 项目。这代表Word的全局模板。
    > ​**重要提示**​：在此处操作，宏才会对所有文档生效。如果选择了某个特定文档的项目，那么宏将只能在该文档中使用。
 4. 在 `Normal` 项目上右键单击，选择 ​**插入 > 模块**​。这会创建一个新的代码模块。
-5. 将完整的VBA代码`ItalicizeSpecies.vba`复制并粘贴到右侧弹出的代码窗口中。
+5. 将完整的[VBA代码](https://raw.githubusercontent.com/yangwu91/Italicize-Scientific-Species-Names/refs/heads/main/ItalicizeSpecies.vba)复制并粘贴到右侧弹出的代码窗口中。
 6. ​**自定义您的物种名列表**​：
    * 在代码的 `speciesList = Array(...)` 部分，您可以自由添加、删除或修改物种名。
    * 每个物种名都需要用英文双引号 `""` 包围。
@@ -35,3 +35,4 @@
 
 ## 第三步：开始使用！
 现在，您会看到Word窗口最左上角的快速访问工具栏多了一个您刚才设置的图标。在需要时，只需轻轻一点，即可完成所有物种名的斜体化操作。
+
