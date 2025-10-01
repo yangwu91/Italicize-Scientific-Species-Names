@@ -9,7 +9,7 @@ English | [中文](https://github.com/yangwu91/Italicize-Scientific-Species-Name
 3. In the "Project" explorer pane on the left, find and double-click on the **`Normal`** (or `Normal.dotm`) project. This represents Word's global template.
    > **Important:** Modifying the `Normal` template ensures the macro is available in all your documents. If you select a project specific to an open document, the macro will only work in that single file.
 4. Right-click on the `Normal` project, then select ​**Insert > Module**​. This will create a new code module.
-5. Copy and paste the entire VBA code `ItalicizeSpecies.vba` into the code window that appears on the right.
+5. Copy and paste the entire [VBA code](https://raw.githubusercontent.com/yangwu91/Italicize-Scientific-Species-Names/refs/heads/main/ItalicizeSpecies.vba) into the code window that appears on the right.
 6. **Customize your list of scientific names:**
    * In the code, locate the `speciesList = Array(...)` section. You can freely add, delete, or modify the names here.
    * Each name must be enclosed in double quotes (`""`).
